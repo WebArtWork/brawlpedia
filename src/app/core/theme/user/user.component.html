@@ -4,18 +4,35 @@
 			<li class="nav__li">
 				<a
 					routerLinkActive="_activeLink"
-					(click)="showSidebar = false"
-					routerLink="/profile"
+					routerLink="/brawlers"
 					class="nav__a"
 				>
-					<span class="material-icons">home</span>
+					<span class="material-icons">list</span>
 				</a>
 			</li>
-			<li class="nav__li _burger" (click)="showSidebar = !showSidebar">
+			<li class="nav__li">
+				<a
+					routerLinkActive="_activeLink"
+					routerLink="/gameplay"
+					class="nav__a"
+				>
+					<span class="material-icons">quiz</span>
+				</a>
+			</li>
+			<li class="nav__li">
+				<a
+					routerLinkActive="_activeLink"
+					routerLink="/picks"
+					class="nav__a"
+				>
+					<span class="material-icons">group</span>
+				</a>
+			</li>
+			<!-- <li class="nav__li _burger" (click)="showSidebar = !showSidebar">
 				<a class="nav__toggle" [class._active]="showSidebar">
 					<span class="nav__toggle-line"></span>
 				</a>
-			</li>
+			</li> -->
 		</ul>
 	</nav>
 

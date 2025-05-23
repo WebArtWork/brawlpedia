@@ -50,6 +50,45 @@ const routes: Routes = [
 		children: [
 			/* user */
 			{
+				path: 'picks',
+				canActivate: [MetaGuard],
+				data: {
+					meta: {
+						title: 'Picks'
+					}
+				},
+				loadChildren: () =>
+					import('./pages/user/picks/picks.module').then(
+						(m) => m.PicksModule
+					)
+			},
+			{
+				path: 'brawler',
+				canActivate: [MetaGuard],
+				data: {
+					meta: {
+						title: 'Brawler'
+					}
+				},
+				loadChildren: () =>
+					import('./pages/user/brawler/brawler.module').then(
+						(m) => m.BrawlerModule
+					)
+			},
+			{
+				path: 'brawlers',
+				canActivate: [MetaGuard],
+				data: {
+					meta: {
+						title: 'Brawlers'
+					}
+				},
+				loadChildren: () =>
+					import('./pages/user/brawlers/brawlers.module').then(
+						(m) => m.BrawlersModule
+					)
+			},
+			{
 				path: 'gameplay',
 				canActivate: [MetaGuard],
 				data: {
@@ -58,7 +97,7 @@ const routes: Routes = [
 					}
 				},
 				loadChildren: () =>
-					import('./pages/guest/gameplay/gameplay.module').then(
+					import('./pages/user/gameplay/gameplay.module').then(
 						(m) => m.GameplayModule
 					)
 			}

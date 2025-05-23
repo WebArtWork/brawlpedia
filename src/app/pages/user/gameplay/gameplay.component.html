@@ -2,7 +2,9 @@
 	<div class="documents-container">
 		<div class="documents-list">
 			<div class="documents-header">
-				<div class="documents-header__title">Gameplay</div>
+				<div class="documents-header__title" translate>
+					Brawl.Gameplay
+				</div>
 			</div>
 			<div class="documents-main">
 				<div class="documents-main-content">
@@ -14,7 +16,9 @@
 						></wform>
 					</div>
 					<div class="documents-main-row">
-						<div class="documents__title">Selected brawlers</div>
+						<div class="documents__title" translate>
+							Brawl.Selected brawlers
+						</div>
 						<div class="documents-triggers">
 							<div
 								*ngFor="let brawler of selectedBrawlers"
@@ -34,7 +38,10 @@
 												[class.red]="brawler.Rarity !== selectedBrawler.Rarity"
 												class="documents-tags__item"
 											>
-												Rarity: {{brawler.Rarity}}
+												<span translate
+													>Brawl.Rarity</span
+												>:
+												{{'Common.'+brawler.Rarity|translate}}
 											</div>
 										</div>
 										<div class="documents-tags__wrap">
@@ -43,7 +50,9 @@
 												[class.red]="brawler.Role !== selectedBrawler.Role"
 												class="documents-tags__item"
 											>
-												Role: {{brawler.Role}}
+												<span translate>Brawl.Role</span
+												>:
+												{{'Common.'+brawler.Role|translate}}
 											</div>
 										</div>
 										<div class="documents-tags__wrap">
@@ -53,7 +62,9 @@
 												[class.red]="Math.abs(brawler.MoveSpeed - selectedBrawler.MoveSpeed) >= 51"
 												class="documents-tags__item"
 											>
-												MoveSpeed: {{brawler.MoveSpeed}}
+												<span translate
+													>Brawl.MoveSpeed</span
+												>: {{brawler.MoveSpeed}}
 												<i
 													*ngIf="brawler.MoveSpeed > selectedBrawler.MoveSpeed"
 													class="material-icons"
@@ -73,7 +84,9 @@
 												[class.red]="Math.abs(brawler.Health - selectedBrawler.Health) >= 3000"
 												class="documents-tags__item"
 											>
-												Health: {{brawler.Health}}
+												<span translate
+													>Brawl.Health</span
+												>: {{brawler.Health}}
 												<i
 													*ngIf="brawler.Health > selectedBrawler.Health"
 													class="material-icons"
@@ -93,8 +106,9 @@
 												[class.red]="Math.abs(brawler.AttackRange - selectedBrawler.AttackRange) >= 3"
 												class="documents-tags__item"
 											>
-												AttackRange:
-												{{brawler.AttackRange}}
+												<span translate
+													>Brawl.AttackRange</span
+												>: {{brawler.AttackRange}}
 												<i
 													*ngIf="brawler.AttackRange > selectedBrawler.AttackRange"
 													class="material-icons"
@@ -114,8 +128,9 @@
 												[class.red]="Math.abs(brawler.AttackDamage - selectedBrawler.AttackDamage) >= 750"
 												class="documents-tags__item"
 											>
-												AttackDamage:
-												{{brawler.AttackDamage}}
+												<span translate
+													>Brawl.AttackDamage</span
+												>: {{brawler.AttackDamage}}
 												<i
 													*ngIf="brawler.AttackDamage > selectedBrawler.AttackDamage"
 													class="material-icons"
