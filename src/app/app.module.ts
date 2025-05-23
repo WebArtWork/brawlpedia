@@ -30,19 +30,6 @@ const routes: Routes = [
 		children: [
 			/* guest */
 			{
-				path: 'gameplay',
-				canActivate: [MetaGuard],
-				data: {
-					meta: {
-						title: 'Gameplay'
-					}
-				},
-				loadChildren: () =>
-					import('./pages/guest/gameplay/gameplay.module').then(
-						(m) => m.GameplayModule
-					)
-			},
-			{
 				path: 'sign',
 				canActivate: [MetaGuard],
 				data: {
@@ -59,10 +46,29 @@ const routes: Routes = [
 	},
 	{
 		path: '',
-		canActivate: [AuthenticatedGuard],
 		component: UserComponent,
 		children: [
 			/* user */
+			{
+				path: 'gameplay',
+				canActivate: [MetaGuard],
+				data: {
+					meta: {
+						title: 'Gameplay'
+					}
+				},
+				loadChildren: () =>
+					import('./pages/guest/gameplay/gameplay.module').then(
+						(m) => m.GameplayModule
+					)
+			}
+		]
+	},
+	{
+		path: '',
+		canActivate: [AuthenticatedGuard],
+		component: UserComponent,
+		children: [
 			{
 				path: 'profile',
 				canActivate: [MetaGuard],

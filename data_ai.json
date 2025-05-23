@@ -1,0 +1,832 @@
+{
+	"brawlers": [
+		{
+			"Brawler": "Shelly",
+			"Rarity": "Starting",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 770,
+			"Health": 7400,
+			"AttackRange": 7,
+			"AttackDamage": 600
+		},
+		{
+			"Brawler": "Nita",
+			"Rarity": "Rare",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 8000,
+			"AttackRange": 6,
+			"AttackDamage": 1920
+		},
+		{
+			"Brawler": "Colt",
+			"Rarity": "Rare",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 5600,
+			"AttackRange": 9,
+			"AttackDamage": 720
+		},
+		{
+			"Brawler": "Bull",
+			"Rarity": "Rare",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 10000,
+			"AttackRange": 5,
+			"AttackDamage": 880
+		},
+		{
+			"Brawler": "Brock",
+			"Rarity": "Rare",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 4800,
+			"AttackRange": 9,
+			"AttackDamage": 2320
+		},
+		{
+			"Brawler": "El Primo",
+			"Rarity": "Rare",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 12000,
+			"AttackRange": 2,
+			"AttackDamage": 720
+		},
+		{
+			"Brawler": "Barley",
+			"Rarity": "Rare",
+			"Role": "Artillery",
+			"MoveSpeed": 720,
+			"Health": 4800,
+			"AttackRange": 7.3,
+			"AttackDamage": 1520
+		},
+		{
+			"Brawler": "Poco",
+			"Rarity": "Rare",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 7400,
+			"AttackRange": 6,
+			"AttackDamage": 1520
+		},
+		{
+			"Brawler": "Rosa",
+			"Rarity": "Rare",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 10800,
+			"AttackRange": 3,
+			"AttackDamage": 920
+		},
+		{
+			"Brawler": "Jessie",
+			"Rarity": "Super Rare",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 6000,
+			"AttackRange": 7,
+			"AttackDamage": 320
+		},
+		{
+			"Brawler": "Darryl",
+			"Rarity": "Super Rare",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 8800,
+			"AttackRange": 5,
+			"AttackDamage": 640
+		},
+		{
+			"Brawler": "Penny",
+			"Rarity": "Super Rare",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 5600,
+			"AttackRange": 8,
+			"AttackDamage": 840
+		},
+		{
+			"Brawler": "Carl",
+			"Rarity": "Super Rare",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 6.5,
+			"AttackDamage": 660
+		},
+		{
+			"Brawler": "Jacky",
+			"Rarity": "Super Rare",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 10000,
+			"AttackRange": 3,
+			"AttackDamage": 1200
+		},
+		{
+			"Brawler": "Gus",
+			"Rarity": "Super Rare",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6000,
+			"AttackRange": 7,
+			"AttackDamage": 800
+		},
+		{
+			"Brawler": "Bo",
+			"Rarity": "Epic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 7000,
+			"AttackRange": 8,
+			"AttackDamage": 1120
+		},
+		{
+			"Brawler": "Piper",
+			"Rarity": "Epic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 4200,
+			"AttackRange": 10,
+			"AttackDamage": 1520
+		},
+		{
+			"Brawler": "Pam",
+			"Rarity": "Epic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 9600,
+			"AttackRange": 8,
+			"AttackDamage": 240
+		},
+		{
+			"Brawler": "Frank",
+			"Rarity": "Epic",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 11000,
+			"AttackRange": 6,
+			"AttackDamage": 1600
+		},
+		{
+			"Brawler": "Bibi",
+			"Rarity": "Epic",
+			"Role": "Tank",
+			"MoveSpeed": 820,
+			"Health": 9800,
+			"AttackRange": 4,
+			"AttackDamage": 1300
+		},
+		{
+			"Brawler": "Bea",
+			"Rarity": "Epic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 4800,
+			"AttackRange": 10,
+			"AttackDamage": 800
+		},
+		{
+			"Brawler": "Nani",
+			"Rarity": "Epic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 5600,
+			"AttackRange": 8.5,
+			"AttackDamage": 1120
+		},
+		{
+			"Brawler": "Edgar",
+			"Rarity": "Epic",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 5600,
+			"AttackRange": 2.5,
+			"AttackDamage": 720
+		},
+		{
+			"Brawler": "Griff",
+			"Rarity": "Epic",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 7000,
+			"AttackRange": 7,
+			"AttackDamage": 660
+		},
+		{
+			"Brawler": "Grom",
+			"Rarity": "Epic",
+			"Role": "Artillery",
+			"MoveSpeed": 720,
+			"Health": 5800,
+			"AttackRange": 9,
+			"AttackDamage": 1200
+		},
+		{
+			"Brawler": "Belle",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 4800,
+			"AttackRange": 10,
+			"AttackDamage": 1100
+		},
+		{
+			"Brawler": "Squeak",
+			"Rarity": "Mythic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 6200,
+			"AttackRange": 7.5,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Mortis",
+			"Rarity": "Mythic",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 5200,
+			"AttackRange": 2.5,
+			"AttackDamage": 900
+		},
+		{
+			"Brawler": "Gene",
+			"Rarity": "Mythic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 5600,
+			"AttackRange": 6.7,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Max",
+			"Rarity": "Mythic",
+			"Role": "Support",
+			"MoveSpeed": 820,
+			"Health": 6000,
+			"AttackRange": 6,
+			"AttackDamage": 1080
+		},
+		{
+			"Brawler": "Sprout",
+			"Rarity": "Mythic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 8.5,
+			"AttackDamage": 1100
+		},
+		{
+			"Brawler": "Byron",
+			"Rarity": "Mythic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 5800,
+			"AttackRange": 8,
+			"AttackDamage": 500
+		},
+		{
+			"Brawler": "Ash",
+			"Rarity": "Chromatic",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 10400,
+			"AttackRange": 4,
+			"AttackDamage": 920
+		},
+		{
+			"Brawler": "Lola",
+			"Rarity": "Chromatic",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 8.5,
+			"AttackDamage": 880
+		},
+		{
+			"Brawler": "Fang",
+			"Rarity": "Chromatic",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 7000,
+			"AttackRange": 2.5,
+			"AttackDamage": 900
+		},
+		{
+			"Brawler": "Eve",
+			"Rarity": "Chromatic",
+			"Role": "Controller",
+			"MoveSpeed": 820,
+			"Health": 5800,
+			"AttackRange": 7,
+			"AttackDamage": 860
+		},
+		{
+			"Brawler": "Janet",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 6600,
+			"AttackRange": 8,
+			"AttackDamage": 900
+		},
+		{
+			"Brawler": "Bonnie",
+			"Rarity": "Chromatic",
+			"Role": "Assassin",
+			"MoveSpeed": 770,
+			"Health": 9000,
+			"AttackRange": 7,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Otis",
+			"Rarity": "Chromatic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 7200,
+			"AttackRange": 8,
+			"AttackDamage": 1040
+		},
+		{
+			"Brawler": "Sam",
+			"Rarity": "Chromatic",
+			"Role": "Tank",
+			"MoveSpeed": 820,
+			"Health": 10000,
+			"AttackRange": 4,
+			"AttackDamage": 880
+		},
+		{
+			"Brawler": "Gus",
+			"Rarity": "Super Rare",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6000,
+			"AttackRange": 7,
+			"AttackDamage": 800
+		},
+		{
+			"Brawler": "Buster",
+			"Rarity": "Chromatic",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 10400,
+			"AttackRange": 5.5,
+			"AttackDamage": 1120
+		},
+		{
+			"Brawler": "Chester",
+			"Rarity": "Legendary",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 8.5,
+			"AttackDamage": 960
+		},
+		{
+			"Brawler": "Gray",
+			"Rarity": "Mythic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6000,
+			"AttackRange": 7.5,
+			"AttackDamage": 920
+		},
+		{
+			"Brawler": "Mandy",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 5400,
+			"AttackRange": 10,
+			"AttackDamage": 1100
+		},
+		{
+			"Brawler": "RT",
+			"Rarity": "Chromatic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 9000,
+			"AttackRange": 8,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Willow",
+			"Rarity": "Mythic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 5600,
+			"AttackRange": 8,
+			"AttackDamage": 760
+		},
+		{
+			"Brawler": "Maisie",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 6200,
+			"AttackRange": 8.5,
+			"AttackDamage": 900
+		},
+		{
+			"Brawler": "Hank",
+			"Rarity": "Chromatic",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 11000,
+			"AttackRange": 6,
+			"AttackDamage": 1200
+		},
+		{
+			"Brawler": "Doug",
+			"Rarity": "Chromatic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 9000,
+			"AttackRange": 6,
+			"AttackDamage": 880
+		},
+		{
+			"Brawler": "Chuck",
+			"Rarity": "Chromatic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 7200,
+			"AttackRange": 8,
+			"AttackDamage": 880
+		},
+		{
+			"Brawler": "Pearl",
+			"Rarity": "Chromatic",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 10400,
+			"AttackRange": 7,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Angelo",
+			"Rarity": "Mythic",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 5800,
+			"AttackRange": 7.5,
+			"AttackDamage": 960
+		},
+		{
+			"Brawler": "Lily",
+			"Rarity": "Mythic",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 6000,
+			"AttackRange": 6,
+			"AttackDamage": 920
+		},
+		{
+			"Brawler": "R-T",
+			"Rarity": "Chromatic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 9000,
+			"AttackRange": 8,
+			"AttackDamage": 1040
+		},
+		{
+			"Brawler": "Larry & Lawrie",
+			"Rarity": "Chromatic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 9600,
+			"AttackRange": 7,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Kitsune Lola",
+			"Rarity": "Chromatic",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 8.5,
+			"AttackDamage": 880
+		},
+		{
+			"Brawler": "Kazan",
+			"Rarity": "Ultra Legendary",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 5800,
+			"AttackRange": 7,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Clancy",
+			"Rarity": "Legendary",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 7000,
+			"AttackRange": 8,
+			"AttackDamage": 940
+		},
+		{
+			"Brawler": "Ivy",
+			"Rarity": "Mythic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6200,
+			"AttackRange": 7.5,
+			"AttackDamage": 860
+		},
+		{
+			"Brawler": "Buzz",
+			"Rarity": "Chromatic",
+			"Role": "Assassin",
+			"MoveSpeed": 770,
+			"Health": 9200,
+			"AttackRange": 2.5,
+			"AttackDamage": 1120
+		},
+		{
+			"Brawler": "Surge",
+			"Rarity": "Chromatic",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 6.5,
+			"AttackDamage": 900
+		},
+		{
+			"Brawler": "Colette",
+			"Rarity": "Chromatic",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 6200,
+			"AttackRange": 8.5,
+			"AttackDamage": 920
+		},
+		{
+			"Brawler": "Lou",
+			"Rarity": "Chromatic",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 6800,
+			"AttackRange": 7.5,
+			"AttackDamage": 860
+		},
+		{
+			"Brawler": "Ruffs",
+			"Rarity": "Chromatic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6800,
+			"AttackRange": 8,
+			"AttackDamage": 840
+		},
+		{
+			"Brawler": "Colonel Ruffs",
+			"Rarity": "Chromatic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6800,
+			"AttackRange": 8,
+			"AttackDamage": 840
+		},
+		{
+			"Brawler": "Belle",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 4800,
+			"AttackRange": 10,
+			"AttackDamage": 1100
+		},
+		{
+			"Brawler": "Spike",
+			"Rarity": "Legendary",
+			"Role": "Artillery",
+			"MoveSpeed": 720,
+			"Health": 5600,
+			"AttackRange": 7.5,
+			"AttackDamage": 1120
+		},
+		{
+			"Brawler": "Crow",
+			"Rarity": "Legendary",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 5600,
+			"AttackRange": 7,
+			"AttackDamage": 320
+		},
+		{
+			"Brawler": "Leon",
+			"Rarity": "Legendary",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 5600,
+			"AttackRange": 6,
+			"AttackDamage": 640
+		},
+		{
+			"Brawler": "Sandy",
+			"Rarity": "Legendary",
+			"Role": "Support",
+			"MoveSpeed": 770,
+			"Health": 7200,
+			"AttackRange": 6.5,
+			"AttackDamage": 920
+		},
+		{
+			"Brawler": "Amber",
+			"Rarity": "Legendary",
+			"Role": "Artillery",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 8.3,
+			"AttackDamage": 210
+		},
+		{
+			"Brawler": "Meg",
+			"Rarity": "Legendary",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 3200,
+			"AttackRange": 8,
+			"AttackDamage": 600
+		},
+		{
+			"Brawler": "Chester",
+			"Rarity": "Legendary",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 8.5,
+			"AttackDamage": 960
+		},
+		{
+			"Brawler": "Mandee",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 5400,
+			"AttackRange": 10,
+			"AttackDamage": 1100
+		},
+		{
+			"Brawler": "Otto",
+			"Rarity": "Chromatic",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6800,
+			"AttackRange": 8,
+			"AttackDamage": 940
+		},
+		{
+			"Brawler": "Clint",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 6000,
+			"AttackRange": 9,
+			"AttackDamage": 980
+		},
+		{
+			"Brawler": "Fang Jr.",
+			"Rarity": "Chromatic",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 7200,
+			"AttackRange": 2.5,
+			"AttackDamage": 960
+		},
+		{
+			"Brawler": "Lumi",
+			"Rarity": "Chromatic",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 5800,
+			"AttackRange": 8,
+			"AttackDamage": 880
+		},
+		{
+			"Brawler": "Tenmei",
+			"Rarity": "Ultra Legendary",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 820,
+			"Health": 6200,
+			"AttackRange": 8.5,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Haru",
+			"Rarity": "Ultra Legendary",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6600,
+			"AttackRange": 9,
+			"AttackDamage": 960
+		},
+		{
+			"Brawler": "Yumi",
+			"Rarity": "Ultra Legendary",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 6000,
+			"AttackRange": 9,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Nova",
+			"Rarity": "Ultra Legendary",
+			"Role": "Artillery",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 10,
+			"AttackDamage": 980
+		},
+		{
+			"Brawler": "Zora",
+			"Rarity": "Ultra Legendary",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 10800,
+			"AttackRange": 6.5,
+			"AttackDamage": 1140
+		},
+		{
+			"Brawler": "Blaze",
+			"Rarity": "Ultra Legendary",
+			"Role": "Damage Dealer",
+			"MoveSpeed": 820,
+			"Health": 6200,
+			"AttackRange": 8,
+			"AttackDamage": 1040
+		},
+		{
+			"Brawler": "Volt",
+			"Rarity": "Ultra Legendary",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 5800,
+			"AttackRange": 7.5,
+			"AttackDamage": 1000
+		},
+		{
+			"Brawler": "Echo",
+			"Rarity": "Ultra Legendary",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 6600,
+			"AttackRange": 8.5,
+			"AttackDamage": 960
+		},
+		{
+			"Brawler": "Zero",
+			"Rarity": "Ultra Legendary",
+			"Role": "Marksman",
+			"MoveSpeed": 720,
+			"Health": 6000,
+			"AttackRange": 9,
+			"AttackDamage": 980
+		},
+		{
+			"Brawler": "Raze",
+			"Rarity": "Ultra Legendary",
+			"Role": "Tank",
+			"MoveSpeed": 770,
+			"Health": 11000,
+			"AttackRange": 5.5,
+			"AttackDamage": 1200
+		},
+		{
+			"Brawler": "Axel",
+			"Rarity": "Ultra Legendary",
+			"Role": "Support",
+			"MoveSpeed": 720,
+			"Health": 6600,
+			"AttackRange": 7.5,
+			"AttackDamage": 940
+		},
+		{
+			"Brawler": "Drako",
+			"Rarity": "Ultra Legendary",
+			"Role": "Assassin",
+			"MoveSpeed": 820,
+			"Health": 6200,
+			"AttackRange": 6.5,
+			"AttackDamage": 1020
+		},
+		{
+			"Brawler": "Kira",
+			"Rarity": "Ultra Legendary",
+			"Role": "Controller",
+			"MoveSpeed": 720,
+			"Health": 6400,
+			"AttackRange": 8,
+			"AttackDamage": 1000
+		}
+	]
+}

@@ -1,86 +1,79 @@
 import { Component } from '@angular/core';
-import { UserService } from 'src/app/modules/user/services/user.service';
 import { FormInterface } from 'src/app/core/modules/form/interfaces/form.interface';
 import { FormService } from 'src/app/core/modules/form/form.service';
+import { brawlers } from 'src/app/core/const/brawlers.const';
+import { Brawl } from 'src/app/core/interfaces/brawl.interface';
 
 @Component({
 	templateUrl: './gameplay.component.html',
 	styleUrls: ['./gameplay.component.scss'],
-	standalone: false,
+	standalone: false
 })
 export class GameplayComponent {
+	readonly Math = Math;
+
+	brawlers = brawlers.slice();
+
+	selectedBrawler: Brawl =
+		brawlers[Math.floor(Math.random() * brawlers.length)];
+
+	selectedBrawlers: Brawl[] = [];
+
 	formDoc: FormInterface = this._form.getForm('docForm', {
 		formId: 'docForm',
-		title: 'Doc form',
+		title: 'Select brawler',
 		components: [
 			{
-				name: 'Text',
-				key: 'name',
-				focused: true,
+				name: 'Select',
+				key: 'brawler',
 				fields: [
+					{
+						name: 'wChange',
+						value: this.addBrawl.bind(this)
+					},
 					{
 						name: 'Placeholder',
-						value: 'Enter your name',
+						value: 'Select brawler you believe is correct'
 					},
 					{
 						name: 'Label',
-						value: 'Name',
-					},
-				],
-			},
-			{
-				name: 'Text',
-				key: 'phone',
-				fields: [
-					{
-						name: 'Placeholder',
-						value: 'Enter your phone',
+						value: 'Brawler'
 					},
 					{
-						name: 'Label',
-						value: 'Phone',
-					},
-				],
-			},
-			{
-				name: 'Text',
-				key: 'bio',
-				fields: [
-					{
-						name: 'Placeholder',
-						value: 'Enter your bio',
+						name: 'Items',
+						value: this.brawlers
 					},
 					{
-						name: 'Label',
-						value: 'Bio',
+						name: 'Name',
+						value: 'Brawler'
 					},
 					{
-						name: 'Textarea',
-						value: true,
-					},
-				],
-			},
-			{
-				name: 'Button',
-				fields: [
-					{
-						name: 'Label',
-						value: "Let's go",
-					},
-					{
-						name: 'Submit',
-						value: true,
-					},
-				],
-			},
-		],
+						name: 'Value',
+						value: 'Brawler'
+					}
+				]
+			}
+		]
 	});
 
-	isMenuOpen = false;
+	submition: Record<string, unknown> = {};
 
-	constructor(public userService: UserService, private _form: FormService) {}
+	constructor(private _form: FormService) {}
 
-	back(): void {
-		window.history.back();
+	addBrawl() {
+		this.selectedBrawlers.push(
+			this.brawlers.find(
+				(b) => b.Brawler === this.submition['brawler']
+			) as Brawl
+		);
+
+		this.brawlers.splice(
+			this.brawlers.findIndex(
+				(b) => b.Brawler === this.submition['brawler']
+			),
+			1
+		);
+
+		this.submition['brawler'] = '';
 	}
 }
