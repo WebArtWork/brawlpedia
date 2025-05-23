@@ -3,6 +3,7 @@ import { FormInterface } from 'src/app/core/modules/form/interfaces/form.interfa
 import { FormService } from 'src/app/core/modules/form/form.service';
 import { brawlers } from 'src/app/core/const/brawlers.const';
 import { Brawl } from 'src/app/core/interfaces/brawl.interface';
+import { AlertService } from 'wacom';
 
 @Component({
 	templateUrl: './gameplay.component.html',
@@ -58,9 +59,18 @@ export class GameplayComponent {
 
 	submition: Record<string, unknown> = {};
 
-	constructor(private _form: FormService) {}
+	constructor(
+		private _form: FormService,
+		private _alert: AlertService
+	) {}
 
 	addBrawl() {
+		if (this.selectedBrawler.Brawler === this.submition['brawler']) {
+			this._alert.success({
+				text: `Well done, you found the Brawler, good job, used ${this.selectedBrawlers.length + 1} tries`
+			});
+		}
+
 		this.selectedBrawlers.push(
 			this.brawlers.find(
 				(b) => b.Brawler === this.submition['brawler']
