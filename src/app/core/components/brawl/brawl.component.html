@@ -1,0 +1,42 @@
+<div class="documents-triggers__item">
+	<div class="documents-triggers__img">
+		<img [src]="'/assets/brawl/' + brawler.Image" alt="" />
+	</div>
+	<div class="documents-triggers__title">{{brawler.Brawler}}</div>
+	<div class="documents-tags">
+		<div class="documents-tags__wrap">
+			<div class="documents-tags__item">
+				<span translate>Brawl.Rarity</span>:
+				{{'Common.'+brawler.Rarity|translate}}
+			</div>
+		</div>
+		<div class="documents-tags__wrap">
+			<div class="documents-tags__item">
+				<span translate>Brawl.Role</span>:
+				{{'Common.'+brawler.Role|translate}}
+			</div>
+		</div>
+		<div class="documents-tags__wrap">
+			<div class="documents-tags__item">
+				<span translate>Brawl.MoveSpeed</span>: {{brawler.MoveSpeed}}
+			</div>
+		</div>
+		<div class="documents-tags__wrap">
+			<div class="documents-tags__item">
+				<span translate>Brawl.Health</span>: {{brawler.Health}}
+			</div>
+		</div>
+		<div class="documents-tags__wrap">
+			<div class="documents-tags__item">
+				<span translate>Brawl.AttackRange</span>:
+				{{brawler.AttackRange}}
+			</div>
+		</div>
+		<div class="documents-tags__wrap">
+			<div class="documents-tags__item">
+				<span translate>Brawl.AttackDamage</span>:
+				{{brawler.AttackDamage}}
+			</div>
+		</div>
+	</div>
+</div>

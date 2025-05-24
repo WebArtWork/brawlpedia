@@ -12,9 +12,11 @@ import { FormcomponentsModule } from './formcomponents/formcomponents.module';
 import { SelectModule } from './modules/select/select.module';
 import { FormModule } from './modules/form/form.module';
 /* imports */
+import { BrawlComponent } from './components/brawl/brawl.component';
 
 const components: Type<any>[] = [
 	/* components */
+	BrawlComponent
 ];
 
 const selectors: Type<any>[] = [
@@ -45,6 +47,7 @@ const pipes: Type<any>[] = [
 		.concat(pipes),
 	imports: [
 		FormcomponentsModule,
+		TranslateModule,
 		SelectModule,
 		CommonModule,
 		FormsModule,

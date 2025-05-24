@@ -11,15 +11,15 @@ export const environment = {
 		password: ''
 	},
 	image: {
-		default: 'https://ngx.webart.work/assets/logo.png',
-		logo: 'https://ngx.webart.work/assets/logo.png'
+		default: 'https://brawlpedia.webart.work/assets/logo.png',
+		logo: 'https://brawlpedia.webart.work/assets/logo.png'
 	},
 	meta: {
-		title: 'Brawlpedia',
+		title: 'Brawl Stars Quiz, Team Builder & Brawler Insights',
 		description:
-			'An amazing solution to build web or mobile app for your business',
-		favicon: 'https://ngx.webart.work/assets/favicon.ico',
-		image: 'https://ngx.webart.work/assets/logo.png'
+			'Discover Brawlpedia – the interactive Brawl Stars site with a fun Brawler quiz, smart team builder, full Brawler list, and matchup tips to play smarter.',
+		favicon: 'https://brawlpedia.webart.work/assets/favicon.ico',
+		image: 'https://brawlpedia.webart.work/assets/logo.png'
 	},
 	defaultLanguageCode: 'ua',
 	languages: [

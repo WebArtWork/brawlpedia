@@ -46,15 +46,17 @@ const routes: Routes = [
 	},
 	{
 		path: '',
-		component: UserComponent,
+		component: PublicComponent,
 		children: [
 			/* user */
 			{
-				path: 'picks',
+				path: 'builder',
 				canActivate: [MetaGuard],
 				data: {
 					meta: {
-						title: 'Picks'
+						title: 'Brawl Stars Team Builder – Build Winning Comps by Mode',
+						description:
+							'Build your perfect Brawl Stars team based on map and mode. Select your Brawlers and get synergy suggestions, counter warnings, and pro strategies.'
 					}
 				},
 				loadChildren: () =>
@@ -67,7 +69,9 @@ const routes: Routes = [
 				canActivate: [MetaGuard],
 				data: {
 					meta: {
-						title: 'Brawler'
+						title: 'Guide – Strengths, Counters & Best Teammates',
+						description:
+							'Learn how to play in Brawl Stars. Discover best teammates, counters to avoid, and game mode tips. Master with Brawlpedia’s expert guide.'
 					}
 				},
 				loadChildren: () =>
@@ -80,7 +84,9 @@ const routes: Routes = [
 				canActivate: [MetaGuard],
 				data: {
 					meta: {
-						title: 'Brawlers'
+						title: 'All Brawlers in Brawl Stars – Complete List & Stats',
+						description:
+							'Explore the full list of Brawl Stars Brawlers with stats, rarity, roles, and unlock info. Filter by class, rarity, or release date to find your favorites.'
 					}
 				},
 				loadChildren: () =>
@@ -89,11 +95,13 @@ const routes: Routes = [
 					)
 			},
 			{
-				path: 'gameplay',
+				path: 'quiz',
 				canActivate: [MetaGuard],
 				data: {
 					meta: {
-						title: 'Gameplay'
+						title: 'Brawl Stars Quiz – Can You Guess Every Brawler?',
+						description:
+							'Test your Brawl Stars knowledge in this fun Brawler quiz! Guess every Brawler by their image or clues. Challenge your friends and climb the leaderboard.'
 					}
 				},
 				loadChildren: () =>
@@ -226,14 +234,14 @@ const routes: Routes = [
 			http: {
 				url: environment.url
 			},
-			socket: environment.production,
+			socket: false,
 			meta: {
 				useTitleSuffix: true,
 				defaults: {
 					title: environment.meta.title,
 					favicon: environment.meta.favicon,
 					description: environment.meta.description,
-					titleSuffix: ' | ' + environment.meta.title,
+					titleSuffix: ' | Brawlpedia',
 					'og:image': environment.meta.image
 				}
 			},

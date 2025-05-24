@@ -8,7 +8,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 7400,
 		AttackRange: 7,
-		AttackDamage: 600
+		AttackDamage: 600,
+		SuperDamage: 5760,
+		ReloadTime: 1.5,
+		ProjectileSpeed: 3100,
+		Image: 'shelly.png'
 	},
 	{
 		Brawler: 'Nita',
@@ -17,7 +21,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 8000,
 		AttackRange: 6,
-		AttackDamage: 1920
+		AttackDamage: 1920,
+		SuperDamage: 800,
+		ReloadTime: 1.1,
+		ProjectileSpeed: 3600,
+		Image: 'nita.png'
 	},
 	{
 		Brawler: 'Colt',
@@ -26,7 +34,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5600,
 		AttackRange: 9,
-		AttackDamage: 720
+		AttackDamage: 720,
+		SuperDamage: 7680,
+		ReloadTime: 1.4,
+		ProjectileSpeed: 4000,
+		Image: 'colt.png'
 	},
 	{
 		Brawler: 'Bull',
@@ -35,7 +47,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 10000,
 		AttackRange: 5,
-		AttackDamage: 880
+		AttackDamage: 880,
+		SuperDamage: 1920,
+		ReloadTime: 1.7,
+		ProjectileSpeed: 3261,
+		Image: 'bull.png'
 	},
 	{
 		Brawler: 'Brock',
@@ -44,7 +60,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 4800,
 		AttackRange: 9,
-		AttackDamage: 2320
+		AttackDamage: 2320,
+		SuperDamage: 2080,
+		ReloadTime: 2.0,
+		ProjectileSpeed: 3400,
+		Image: 'brock.png'
 	},
 	{
 		Brawler: 'El Primo',
@@ -53,7 +73,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 12000,
 		AttackRange: 2,
-		AttackDamage: 720
+		AttackDamage: 720,
+		Image: 'elprimo.png'
 	},
 	{
 		Brawler: 'Barley',
@@ -62,7 +83,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 4800,
 		AttackRange: 7.3,
-		AttackDamage: 1520
+		AttackDamage: 1520,
+		SuperDamage: 5440,
+		ReloadTime: 2.1,
+		ProjectileSpeed: 1900,
+		Image: 'barley.png'
 	},
 	{
 		Brawler: 'Poco',
@@ -71,7 +96,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 7400,
 		AttackRange: 6,
-		AttackDamage: 1520
+		AttackDamage: 1520,
+		SuperDamage: 4200,
+		ReloadTime: 1.6,
+		ProjectileSpeed: 2500,
+		Image: 'poco.png'
 	},
 	{
 		Brawler: 'Rosa',
@@ -80,7 +109,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 10800,
 		AttackRange: 3,
-		AttackDamage: 920
+		AttackDamage: 920,
+		SuperDamage: 2760,
+		ReloadTime: 1.9,
+		ProjectileSpeed: 5000,
+		Image: 'rosa.png'
 	},
 	{
 		Brawler: 'Jessie',
@@ -89,7 +122,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6000,
 		AttackRange: 7,
-		AttackDamage: 320
+		AttackDamage: 320,
+		SuperDamage: 0,
+		ReloadTime: 1.4,
+		ProjectileSpeed: 2870,
+		Image: 'jessie.png'
 	},
 	{
 		Brawler: 'Darryl',
@@ -98,7 +135,11 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 8800,
 		AttackRange: 5,
-		AttackDamage: 640
+		AttackDamage: 640,
+		SuperDamage: 800,
+		ReloadTime: 1.5,
+		ProjectileSpeed: 0,
+		Image: 'darryl.png'
 	},
 	{
 		Brawler: 'Penny',
@@ -107,7 +148,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5600,
 		AttackRange: 8,
-		AttackDamage: 840
+		AttackDamage: 840,
+		Image: 'penny.png'
 	},
 	{
 		Brawler: 'Carl',
@@ -116,7 +158,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 6.5,
-		AttackDamage: 660
+		AttackDamage: 660,
+		Image: 'carl.png'
 	},
 	{
 		Brawler: 'Jacky',
@@ -125,7 +168,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 10000,
 		AttackRange: 3,
-		AttackDamage: 1200
+		AttackDamage: 1200,
+		Image: 'jacky.png'
 	},
 	{
 		Brawler: 'Gus',
@@ -134,7 +178,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6000,
 		AttackRange: 7,
-		AttackDamage: 800
+		AttackDamage: 800,
+		Image: 'gus.png'
 	},
 	{
 		Brawler: 'Bo',
@@ -143,7 +188,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 7000,
 		AttackRange: 8,
-		AttackDamage: 1120
+		AttackDamage: 1120,
+		Image: 'bo.png'
 	},
 	{
 		Brawler: 'Piper',
@@ -152,7 +198,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 4200,
 		AttackRange: 10,
-		AttackDamage: 1520
+		AttackDamage: 1520,
+		Image: 'piper.png'
 	},
 	{
 		Brawler: 'Pam',
@@ -161,7 +208,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 9600,
 		AttackRange: 8,
-		AttackDamage: 240
+		AttackDamage: 240,
+		Image: 'pam.png'
 	},
 	{
 		Brawler: 'Frank',
@@ -170,7 +218,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 11000,
 		AttackRange: 6,
-		AttackDamage: 1600
+		AttackDamage: 1600,
+		Image: 'frank.png'
 	},
 	{
 		Brawler: 'Bibi',
@@ -179,7 +228,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 9800,
 		AttackRange: 4,
-		AttackDamage: 1300
+		AttackDamage: 1300,
+		Image: 'bibi.png'
 	},
 	{
 		Brawler: 'Bea',
@@ -188,7 +238,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 4800,
 		AttackRange: 10,
-		AttackDamage: 800
+		AttackDamage: 800,
+		Image: 'bea.png'
 	},
 	{
 		Brawler: 'Nani',
@@ -197,7 +248,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5600,
 		AttackRange: 8.5,
-		AttackDamage: 1120
+		AttackDamage: 1120,
+		Image: 'nani.png'
 	},
 	{
 		Brawler: 'Edgar',
@@ -206,7 +258,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5600,
 		AttackRange: 2.5,
-		AttackDamage: 720
+		AttackDamage: 720,
+		Image: 'edgar.png'
 	},
 	{
 		Brawler: 'Griff',
@@ -215,7 +268,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 7000,
 		AttackRange: 7,
-		AttackDamage: 660
+		AttackDamage: 660,
+		Image: 'griff.png'
 	},
 	{
 		Brawler: 'Grom',
@@ -224,7 +278,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5800,
 		AttackRange: 9,
-		AttackDamage: 1200
+		AttackDamage: 1200,
+		Image: 'grom.png'
 	},
 	{
 		Brawler: 'Belle',
@@ -233,7 +288,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 4800,
 		AttackRange: 10,
-		AttackDamage: 1100
+		AttackDamage: 1100,
+		Image: 'belle.png'
 	},
 	{
 		Brawler: 'Squeak',
@@ -242,7 +298,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6200,
 		AttackRange: 7.5,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'squeak.png'
 	},
 	{
 		Brawler: 'Mortis',
@@ -251,7 +308,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5200,
 		AttackRange: 2.5,
-		AttackDamage: 900
+		AttackDamage: 900,
+		Image: 'mortis.png'
 	},
 	{
 		Brawler: 'Gene',
@@ -260,7 +318,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5600,
 		AttackRange: 6.7,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'gene.png'
 	},
 	{
 		Brawler: 'Max',
@@ -269,7 +328,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 6000,
 		AttackRange: 6,
-		AttackDamage: 1080
+		AttackDamage: 1080,
+		Image: 'max.png'
 	},
 	{
 		Brawler: 'Sprout',
@@ -278,7 +338,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 8.5,
-		AttackDamage: 1100
+		AttackDamage: 1100,
+		Image: 'sprout.png'
 	},
 	{
 		Brawler: 'Byron',
@@ -287,7 +348,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5800,
 		AttackRange: 8,
-		AttackDamage: 500
+		AttackDamage: 500,
+		Image: 'byron.png'
 	},
 	{
 		Brawler: 'Ash',
@@ -296,7 +358,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 10400,
 		AttackRange: 4,
-		AttackDamage: 920
+		AttackDamage: 920,
+		Image: 'ash.png'
 	},
 	{
 		Brawler: 'Lola',
@@ -305,7 +368,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 8.5,
-		AttackDamage: 880
+		AttackDamage: 880,
+		Image: 'lola.png'
 	},
 	{
 		Brawler: 'Fang',
@@ -314,7 +378,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 7000,
 		AttackRange: 2.5,
-		AttackDamage: 900
+		AttackDamage: 900,
+		Image: 'fang.png'
 	},
 	{
 		Brawler: 'Eve',
@@ -323,7 +388,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5800,
 		AttackRange: 7,
-		AttackDamage: 860
+		AttackDamage: 860,
+		Image: 'eve.png'
 	},
 	{
 		Brawler: 'Janet',
@@ -332,7 +398,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6600,
 		AttackRange: 8,
-		AttackDamage: 900
+		AttackDamage: 900,
+		Image: 'janet.png'
 	},
 	{
 		Brawler: 'Bonnie',
@@ -341,7 +408,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 9000,
 		AttackRange: 7,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'bonnie.png'
 	},
 	{
 		Brawler: 'Otis',
@@ -350,7 +418,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 7200,
 		AttackRange: 8,
-		AttackDamage: 1040
+		AttackDamage: 1040,
+		Image: 'otis.png'
 	},
 	{
 		Brawler: 'Sam',
@@ -359,7 +428,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 10000,
 		AttackRange: 4,
-		AttackDamage: 880
+		AttackDamage: 880,
+		Image: 'sam.png'
 	},
 	{
 		Brawler: 'Gus',
@@ -368,7 +438,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6000,
 		AttackRange: 7,
-		AttackDamage: 800
+		AttackDamage: 800,
+		Image: 'gus.png'
 	},
 	{
 		Brawler: 'Buster',
@@ -377,7 +448,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 10400,
 		AttackRange: 5.5,
-		AttackDamage: 1120
+		AttackDamage: 1120,
+		Image: 'buster.png'
 	},
 	{
 		Brawler: 'Chester',
@@ -386,7 +458,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 8.5,
-		AttackDamage: 960
+		AttackDamage: 960,
+		Image: 'chester.png'
 	},
 	{
 		Brawler: 'Gray',
@@ -395,7 +468,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6000,
 		AttackRange: 7.5,
-		AttackDamage: 920
+		AttackDamage: 920,
+		Image: 'gray.png'
 	},
 	{
 		Brawler: 'Mandy',
@@ -404,7 +478,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5400,
 		AttackRange: 10,
-		AttackDamage: 1100
+		AttackDamage: 1100,
+		Image: 'mandy.png'
 	},
 	{
 		Brawler: 'RT',
@@ -413,7 +488,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 9000,
 		AttackRange: 8,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'rt.png'
 	},
 	{
 		Brawler: 'Willow',
@@ -422,7 +498,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5600,
 		AttackRange: 8,
-		AttackDamage: 760
+		AttackDamage: 760,
+		Image: 'willow.png'
 	},
 	{
 		Brawler: 'Maisie',
@@ -431,7 +508,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6200,
 		AttackRange: 8.5,
-		AttackDamage: 900
+		AttackDamage: 900,
+		Image: 'maisie.png'
 	},
 	{
 		Brawler: 'Hank',
@@ -440,7 +518,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 11000,
 		AttackRange: 6,
-		AttackDamage: 1200
+		AttackDamage: 1200,
+		Image: 'hank.png'
 	},
 	{
 		Brawler: 'Doug',
@@ -449,7 +528,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 9000,
 		AttackRange: 6,
-		AttackDamage: 880
+		AttackDamage: 880,
+		Image: 'doug.png'
 	},
 	{
 		Brawler: 'Chuck',
@@ -458,7 +538,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 7200,
 		AttackRange: 8,
-		AttackDamage: 880
+		AttackDamage: 880,
+		Image: 'chuck.png'
 	},
 	{
 		Brawler: 'Pearl',
@@ -467,7 +548,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 10400,
 		AttackRange: 7,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'pearl.png'
 	},
 	{
 		Brawler: 'Angelo',
@@ -476,7 +558,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5800,
 		AttackRange: 7.5,
-		AttackDamage: 960
+		AttackDamage: 960,
+		Image: 'angelo.png'
 	},
 	{
 		Brawler: 'Lily',
@@ -485,7 +568,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 6000,
 		AttackRange: 6,
-		AttackDamage: 920
+		AttackDamage: 920,
+		Image: 'lily.png'
 	},
 	{
 		Brawler: 'R-T',
@@ -494,7 +578,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 9000,
 		AttackRange: 8,
-		AttackDamage: 1040
+		AttackDamage: 1040,
+		Image: 'rt.png'
 	},
 	{
 		Brawler: 'Larry & Lawrie',
@@ -503,7 +588,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 9600,
 		AttackRange: 7,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'larrylawrie.png'
 	},
 	{
 		Brawler: 'Kitsune Lola',
@@ -512,7 +598,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 8.5,
-		AttackDamage: 880
+		AttackDamage: 880,
+		Image: 'kitsunelola.png'
 	},
 	{
 		Brawler: 'Kazan',
@@ -521,7 +608,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5800,
 		AttackRange: 7,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'kazan.png'
 	},
 	{
 		Brawler: 'Clancy',
@@ -530,7 +618,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 7000,
 		AttackRange: 8,
-		AttackDamage: 940
+		AttackDamage: 940,
+		Image: 'clancy.png'
 	},
 	{
 		Brawler: 'Ivy',
@@ -539,7 +628,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6200,
 		AttackRange: 7.5,
-		AttackDamage: 860
+		AttackDamage: 860,
+		Image: 'ivy.png'
 	},
 	{
 		Brawler: 'Buzz',
@@ -548,7 +638,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 9200,
 		AttackRange: 2.5,
-		AttackDamage: 1120
+		AttackDamage: 1120,
+		Image: 'buzz.png'
 	},
 	{
 		Brawler: 'Surge',
@@ -557,7 +648,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 6.5,
-		AttackDamage: 900
+		AttackDamage: 900,
+		Image: 'surge.png'
 	},
 	{
 		Brawler: 'Colette',
@@ -566,7 +658,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6200,
 		AttackRange: 8.5,
-		AttackDamage: 920
+		AttackDamage: 920,
+		Image: 'colette.png'
 	},
 	{
 		Brawler: 'Lou',
@@ -575,7 +668,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6800,
 		AttackRange: 7.5,
-		AttackDamage: 860
+		AttackDamage: 860,
+		Image: 'lou.png'
 	},
 	{
 		Brawler: 'Ruffs',
@@ -584,7 +678,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6800,
 		AttackRange: 8,
-		AttackDamage: 840
+		AttackDamage: 840,
+		Image: 'ruffs.png'
 	},
 	{
 		Brawler: 'Colonel Ruffs',
@@ -593,7 +688,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6800,
 		AttackRange: 8,
-		AttackDamage: 840
+		AttackDamage: 840,
+		Image: 'colonelruffs.png'
 	},
 	{
 		Brawler: 'Belle',
@@ -602,7 +698,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 4800,
 		AttackRange: 10,
-		AttackDamage: 1100
+		AttackDamage: 1100,
+		Image: 'belle.png'
 	},
 	{
 		Brawler: 'Spike',
@@ -611,7 +708,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5600,
 		AttackRange: 7.5,
-		AttackDamage: 1120
+		AttackDamage: 1120,
+		Image: 'spike.png'
 	},
 	{
 		Brawler: 'Crow',
@@ -620,7 +718,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5600,
 		AttackRange: 7,
-		AttackDamage: 320
+		AttackDamage: 320,
+		Image: 'crow.png'
 	},
 	{
 		Brawler: 'Leon',
@@ -629,7 +728,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5600,
 		AttackRange: 6,
-		AttackDamage: 640
+		AttackDamage: 640,
+		Image: 'leon.png'
 	},
 	{
 		Brawler: 'Sandy',
@@ -638,7 +738,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 7200,
 		AttackRange: 6.5,
-		AttackDamage: 920
+		AttackDamage: 920,
+		Image: 'sandy.png'
 	},
 	{
 		Brawler: 'Amber',
@@ -647,7 +748,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 8.3,
-		AttackDamage: 210
+		AttackDamage: 210,
+		Image: 'amber.png'
 	},
 	{
 		Brawler: 'Meg',
@@ -656,7 +758,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 3200,
 		AttackRange: 8,
-		AttackDamage: 600
+		AttackDamage: 600,
+		Image: 'meg.png'
 	},
 	{
 		Brawler: 'Chester',
@@ -665,7 +768,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 8.5,
-		AttackDamage: 960
+		AttackDamage: 960,
+		Image: 'chester.png'
 	},
 	{
 		Brawler: 'Mandee',
@@ -674,7 +778,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5400,
 		AttackRange: 10,
-		AttackDamage: 1100
+		AttackDamage: 1100,
+		Image: 'mandee.png'
 	},
 	{
 		Brawler: 'Otto',
@@ -683,7 +788,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6800,
 		AttackRange: 8,
-		AttackDamage: 940
+		AttackDamage: 940,
+		Image: 'otto.png'
 	},
 	{
 		Brawler: 'Clint',
@@ -692,7 +798,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6000,
 		AttackRange: 9,
-		AttackDamage: 980
+		AttackDamage: 980,
+		Image: 'clint.png'
 	},
 	{
 		Brawler: 'Fang Jr.',
@@ -701,7 +808,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 7200,
 		AttackRange: 2.5,
-		AttackDamage: 960
+		AttackDamage: 960,
+		Image: 'fangjr..png'
 	},
 	{
 		Brawler: 'Lumi',
@@ -710,7 +818,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 5800,
 		AttackRange: 8,
-		AttackDamage: 880
+		AttackDamage: 880,
+		Image: 'lumi.png'
 	},
 	{
 		Brawler: 'Tenmei',
@@ -719,7 +828,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 6200,
 		AttackRange: 8.5,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'tenmei.png'
 	},
 	{
 		Brawler: 'Haru',
@@ -728,7 +838,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6600,
 		AttackRange: 9,
-		AttackDamage: 960
+		AttackDamage: 960,
+		Image: 'haru.png'
 	},
 	{
 		Brawler: 'Yumi',
@@ -737,7 +848,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6000,
 		AttackRange: 9,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'yumi.png'
 	},
 	{
 		Brawler: 'Nova',
@@ -746,7 +858,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 10,
-		AttackDamage: 980
+		AttackDamage: 980,
+		Image: 'nova.png'
 	},
 	{
 		Brawler: 'Zora',
@@ -755,7 +868,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 10800,
 		AttackRange: 6.5,
-		AttackDamage: 1140
+		AttackDamage: 1140,
+		Image: 'zora.png'
 	},
 	{
 		Brawler: 'Blaze',
@@ -764,7 +878,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 6200,
 		AttackRange: 8,
-		AttackDamage: 1040
+		AttackDamage: 1040,
+		Image: 'blaze.png'
 	},
 	{
 		Brawler: 'Volt',
@@ -773,7 +888,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 5800,
 		AttackRange: 7.5,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'volt.png'
 	},
 	{
 		Brawler: 'Echo',
@@ -782,7 +898,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6600,
 		AttackRange: 8.5,
-		AttackDamage: 960
+		AttackDamage: 960,
+		Image: 'echo.png'
 	},
 	{
 		Brawler: 'Zero',
@@ -791,7 +908,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6000,
 		AttackRange: 9,
-		AttackDamage: 980
+		AttackDamage: 980,
+		Image: 'zero.png'
 	},
 	{
 		Brawler: 'Raze',
@@ -800,7 +918,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 770,
 		Health: 11000,
 		AttackRange: 5.5,
-		AttackDamage: 1200
+		AttackDamage: 1200,
+		Image: 'raze.png'
 	},
 	{
 		Brawler: 'Axel',
@@ -809,7 +928,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6600,
 		AttackRange: 7.5,
-		AttackDamage: 940
+		AttackDamage: 940,
+		Image: 'axel.png'
 	},
 	{
 		Brawler: 'Drako',
@@ -818,7 +938,8 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 820,
 		Health: 6200,
 		AttackRange: 6.5,
-		AttackDamage: 1020
+		AttackDamage: 1020,
+		Image: 'drako.png'
 	},
 	{
 		Brawler: 'Kira',
@@ -827,6 +948,7 @@ export const brawlers: Brawl[] = [
 		MoveSpeed: 720,
 		Health: 6400,
 		AttackRange: 8,
-		AttackDamage: 1000
+		AttackDamage: 1000,
+		Image: 'kira.png'
 	}
 ];

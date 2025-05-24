@@ -6,4 +6,8 @@ export interface Brawl {
 	Health: number;
 	AttackRange: number;
 	AttackDamage: number;
+	SuperDamage?: number;
+	ReloadTime?: number;
+	ProjectileSpeed?: number;
+	Image: string;
 }
