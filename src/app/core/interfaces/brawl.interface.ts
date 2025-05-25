@@ -1,5 +1,5 @@
 export interface Brawl {
-	Brawler: string;
+	Name: string;
 	Rarity: string;
 	Role: string;
 	MoveSpeed: number;

@@ -65,7 +65,7 @@ export class GameplayComponent {
 	) {}
 
 	addBrawl() {
-		if (this.selectedBrawler.Brawler === this.submition['brawler']) {
+		if (this.selectedBrawler.Name === this.submition['brawler']) {
 			this._alert.success({
 				text: `Well done, you found the Brawler, good job, used ${this.selectedBrawlers.length + 1} tries`
 			});
@@ -73,13 +73,13 @@ export class GameplayComponent {
 
 		this.selectedBrawlers.push(
 			this.brawlers.find(
-				(b) => b.Brawler === this.submition['brawler']
+				(b) => b.Name === this.submition['brawler']
 			) as Brawl
 		);
 
 		this.brawlers.splice(
 			this.brawlers.findIndex(
-				(b) => b.Brawler === this.submition['brawler']
+				(b) => b.Name === this.submition['brawler']
 			),
 			1
 		);
