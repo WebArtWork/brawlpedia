@@ -21,130 +21,13 @@
 						</div>
 						<div class="documents-triggers">
 							<div
-								*ngFor="let brawler of selectedBrawlers"
+								*ngFor="let brawler of selectedBrawlers; index as i"
 								class="documents-triggers__wrap"
 							>
-								<div class="documents-triggers__item">
-									<div class="documents-triggers__img">
-										<img src="/assets/default.png" alt="" />
-									</div>
-									<div class="documents-triggers__title">
-										{{brawler.Name}}
-									</div>
-									<div class="documents-tags">
-										<div class="documents-tags__wrap">
-											<div
-												[class.green]="brawler.Rarity === selectedBrawler.Rarity"
-												[class.red]="brawler.Rarity !== selectedBrawler.Rarity"
-												class="documents-tags__item"
-											>
-												<span translate
-													>Brawl.Rarity</span
-												>:
-												{{'Common.'+brawler.Rarity|translate}}
-											</div>
-										</div>
-										<div class="documents-tags__wrap">
-											<div
-												[class.green]="brawler.Role === selectedBrawler.Role"
-												[class.red]="brawler.Role !== selectedBrawler.Role"
-												class="documents-tags__item"
-											>
-												<span translate>Brawl.Role</span
-												>:
-												{{'Common.'+brawler.Role|translate}}
-											</div>
-										</div>
-										<div class="documents-tags__wrap">
-											<div
-												[class.green]="brawler.MoveSpeed === selectedBrawler.MoveSpeed"
-												[class.orange]="Math.abs(brawler.MoveSpeed - selectedBrawler.MoveSpeed) < 51 && brawler.MoveSpeed !== selectedBrawler.MoveSpeed"
-												[class.red]="Math.abs(brawler.MoveSpeed - selectedBrawler.MoveSpeed) >= 51"
-												class="documents-tags__item"
-											>
-												<span translate
-													>Brawl.MoveSpeed</span
-												>: {{brawler.MoveSpeed}}
-												<i
-													*ngIf="brawler.MoveSpeed > selectedBrawler.MoveSpeed"
-													class="material-icons"
-													>arrow_upward</i
-												>
-												<i
-													*ngIf="brawler.MoveSpeed < selectedBrawler.MoveSpeed"
-													class="material-icons"
-													>arrow_downward</i
-												>
-											</div>
-										</div>
-										<div class="documents-tags__wrap">
-											<div
-												[class.green]="brawler.Health === selectedBrawler.Health"
-												[class.orange]="Math.abs(brawler.Health - selectedBrawler.Health) < 3000 && brawler.Health !== selectedBrawler.Health"
-												[class.red]="Math.abs(brawler.Health - selectedBrawler.Health) >= 3000"
-												class="documents-tags__item"
-											>
-												<span translate
-													>Brawl.Health</span
-												>: {{brawler.Health}}
-												<i
-													*ngIf="brawler.Health > selectedBrawler.Health"
-													class="material-icons"
-													>arrow_upward</i
-												>
-												<i
-													*ngIf="brawler.Health < selectedBrawler.Health"
-													class="material-icons"
-													>arrow_downward</i
-												>
-											</div>
-										</div>
-										<div class="documents-tags__wrap">
-											<div
-												[class.green]="brawler.AttackRange === selectedBrawler.AttackRange"
-												[class.orange]="Math.abs(brawler.AttackRange - selectedBrawler.AttackRange) < 3 && brawler.AttackRange !== selectedBrawler.AttackRange"
-												[class.red]="Math.abs(brawler.AttackRange - selectedBrawler.AttackRange) >= 3"
-												class="documents-tags__item"
-											>
-												<span translate
-													>Brawl.AttackRange</span
-												>: {{brawler.AttackRange}}
-												<i
-													*ngIf="brawler.AttackRange > selectedBrawler.AttackRange"
-													class="material-icons"
-													>arrow_upward</i
-												>
-												<i
-													*ngIf="brawler.AttackRange < selectedBrawler.AttackRange"
-													class="material-icons"
-													>arrow_downward</i
-												>
-											</div>
-										</div>
-										<div class="documents-tags__wrap">
-											<div
-												[class.green]="brawler.AttackDamage === selectedBrawler.AttackDamage"
-												[class.orange]="Math.abs(brawler.AttackDamage - selectedBrawler.AttackDamage) < 750 && brawler.AttackDamage !== selectedBrawler.AttackDamage"
-												[class.red]="Math.abs(brawler.AttackDamage - selectedBrawler.AttackDamage) >= 750"
-												class="documents-tags__item"
-											>
-												<span translate
-													>Brawl.AttackDamage</span
-												>: {{brawler.AttackDamage}}
-												<i
-													*ngIf="brawler.AttackDamage > selectedBrawler.AttackDamage"
-													class="material-icons"
-													>arrow_upward</i
-												>
-												<i
-													*ngIf="brawler.AttackDamage < selectedBrawler.AttackDamage"
-													class="material-icons"
-													>arrow_downward</i
-												>
-											</div>
-										</div>
-									</div>
-								</div>
+								<core-brawl
+									[compareToBrawler]="selectedBrawler"
+									[brawler]="brawler"
+								></core-brawl>
 							</div>
 						</div>
 					</div>

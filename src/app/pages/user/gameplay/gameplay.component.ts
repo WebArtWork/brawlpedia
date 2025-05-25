@@ -11,8 +11,6 @@ import { AlertService } from 'wacom';
 	standalone: false
 })
 export class GameplayComponent {
-	readonly Math = Math;
-
 	brawlers = brawlers.slice();
 
 	selectedBrawler: Brawl =
@@ -46,11 +44,13 @@ export class GameplayComponent {
 					},
 					{
 						name: 'Name',
-						value: 'Brawler'
+						skipTranslation: true,
+						value: 'Name'
 					},
 					{
 						name: 'Value',
-						value: 'Brawler'
+						skipTranslation: true,
+						value: 'Name'
 					}
 				]
 			}

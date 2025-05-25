@@ -68,10 +68,10 @@
 			"Health": 5600,
 			"AttackName": "Bouncy bullets",
 			"AttackRange": "Very long",
-			"AttackDamage":3200 ,
+			"AttackDamage": 3200,
 			"AttackReloadSpeed": "very fast",
 			"SuperName": "Trick shot",
-			"SuperDamage":8640 ,
+			"SuperDamage": 8640,
 			"SuperRange": "Very long",
 			"Image": "rico.png"
 		},
@@ -265,6 +265,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "tara.png"
 		},
 		{
@@ -337,6 +340,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "tick.png"
 		},
 		{
@@ -409,6 +415,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "8-bit.png"
 		},
 		{
@@ -451,6 +460,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "emz.png"
 		},
 		{
@@ -463,6 +475,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "mr._p.png"
 		},
 		{
@@ -505,6 +520,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "gale.png"
 		},
 		{
@@ -652,6 +670,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "stu.png"
 		},
 		{
@@ -1009,6 +1030,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "cordelius.png"
 		},
 		{
@@ -1066,6 +1090,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "charlie.png"
 		},
 		{
@@ -1078,6 +1105,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "mico.png"
 		},
 		{
@@ -1090,6 +1120,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "kit.png"
 		},
 		{
@@ -1117,6 +1150,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "melodie.png"
 		},
 		{
@@ -1144,6 +1180,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "draco.png"
 		},
 		{
@@ -1171,6 +1210,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "berry.png"
 		},
 		{
@@ -1198,6 +1240,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "moe.png"
 		},
 		{
@@ -1210,6 +1255,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "kenji.png"
 		},
 		{
@@ -1222,6 +1270,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "shade.png"
 		},
 		{
@@ -1234,6 +1285,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "juju.png"
 		},
 		{
@@ -1246,6 +1300,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "meeple.png"
 		},
 		{
@@ -1258,6 +1315,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "ollie.png"
 		},
 		{
@@ -1285,6 +1345,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "finx.png"
 		},
 		{
@@ -1297,6 +1360,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "jae-yong.png"
 		},
 		{
@@ -1309,6 +1375,9 @@
 			"AttackRange": "Long",
 			"AttackDamage": 0,
 			"AttackReloadSpeed": "Fast",
+			"SuperName": "",
+			"SuperDamage": 2000,
+			"SuperRange": "Long",
 			"Image": "kaze.png"
 		}
 	]

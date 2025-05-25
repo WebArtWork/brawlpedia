@@ -20,7 +20,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 const routes: Routes = [
 	{
 		path: '',
-		redirectTo: '/gameplay',
+		redirectTo: '/quiz',
 		pathMatch: 'full'
 	},
 	{

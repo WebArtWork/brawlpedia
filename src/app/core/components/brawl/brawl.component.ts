@@ -7,5 +7,9 @@ import { Brawl } from '../../interfaces/brawl.interface';
 	standalone: false
 })
 export class BrawlComponent {
+	readonly Math = Math;
+
 	@Input() brawler: Brawl;
+
+	@Input() compareToBrawler: Brawl;
 }
