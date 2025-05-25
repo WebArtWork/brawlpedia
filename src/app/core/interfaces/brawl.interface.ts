@@ -1,5 +1,6 @@
 export interface Brawl {
 	Name: string;
+	Image: string;
 	Rarity: string;
 	Role: string;
 	MoveSpeed: number;
@@ -9,5 +10,4 @@ export interface Brawl {
 	SuperDamage?: number;
 	ReloadTime?: number;
 	ProjectileSpeed?: number;
-	Image: string;
 }
