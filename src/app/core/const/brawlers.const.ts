@@ -1382,3 +1382,14 @@ export const brawlers: Brawl[] = [
 		Image: 'kaze.png'
 	}
 ];
+
+export const brawlModes = [
+	'Showdown',
+	'Gem Grab',
+	'Brawl Ball',
+	'Bounty',
+	'Heist',
+	'Hot Zone',
+	'Knockout',
+	'Duels'
+];

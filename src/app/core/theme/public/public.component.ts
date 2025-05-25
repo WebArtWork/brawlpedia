@@ -8,5 +8,5 @@ import { UserService } from 'src/app/modules/user/services/user.service';
 	styleUrl: './public.component.scss'
 })
 export class PublicComponent {
-	constructor(public us: UserService) {}
+	constructor(public userService: UserService) {}
 }

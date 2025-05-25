@@ -3,6 +3,17 @@
 		<ul class="nav__ul container">
 			<li class="nav__li">
 				<a
+					(click)="userService.setMode(userService.mode === 'dark' ? 'white' : 'dark')"
+					class="nav__a"
+				>
+					<span class="material-icons"
+						>{{userService.mode === 'dark' ? 'dark_mode' :
+						'light_mode'}}</span
+					>
+				</a>
+			</li>
+			<li class="nav__li">
+				<a
 					routerLinkActive="_activeLink"
 					routerLink="/brawlers"
 					class="nav__a"
