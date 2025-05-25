@@ -19,25 +19,25 @@
 			"Name": "Colt",
 			"Rarity": "Rare",
 			"Role": "Damage Dealer",
-			"MoveSpeed": "Fast",
-			"Health": 6000,
-			"AttackName": "",
+			"MoveSpeed": "Normal",
+			"Health": 5600,
+			"AttackName": "Six-Shooters",
 			"AttackRange": "Long",
-			"AttackDamage": 480,
+			"AttackDamage": 4320,
 			"AttackReloadSpeed": "Fast",
-			"SuperName": "",
-			"SuperDamage": 1920,
-			"SuperRange": "Long",
+			"SuperName": "Bullet storm",
+			"SuperDamage": 7680,
+			"SuperRange": "Very long",
 			"Image": "colt.png"
 		},
 		{
-			"Name": "Bull",
+			"Name": "+Bull",
 			"Rarity": "Rare",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
 			"Health": 10000,
-			"AttackName": "",
-			"AttackRange": "Long",
+			"AttackName": "Double-Barrel",
+			"AttackRange": "Normal",
 			"AttackDamage": 400,
 			"AttackReloadSpeed": "Fast",
 			"SuperName": "",
@@ -46,7 +46,7 @@
 			"Image": "bull.png"
 		},
 		{
-			"Name": "Brock",
+			"Name": "+Brock",
 			"Rarity": "Rare",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -62,18 +62,21 @@
 		},
 		{
 			"Name": "Rico",
-			"Rarity": "Unknown",
-			"Role": "Unknown",
-			"MoveSpeed": "Fast",
-			"Health": 0,
-			"AttackName": "",
-			"AttackRange": "Long",
-			"AttackDamage": 0,
-			"AttackReloadSpeed": "Fast",
+			"Rarity": "Super rare",
+			"Role": "Damage Dealer",
+			"MoveSpeed": "Normal",
+			"Health": 5600,
+			"AttackName": "Bouncy bullets",
+			"AttackRange": "Very long",
+			"AttackDamage":3200 ,
+			"AttackReloadSpeed": "very fast",
+			"SuperName": "Trick shot",
+			"SuperDamage":8640 ,
+			"SuperRange": "Very long",
 			"Image": "rico.png"
 		},
 		{
-			"Name": "Spike",
+			"Name": "+Spike",
 			"Rarity": "Legendary",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -88,7 +91,7 @@
 			"Image": "spike.png"
 		},
 		{
-			"Name": "Barley",
+			"Name": "+Barley",
 			"Rarity": "Rare",
 			"Role": "Artillery",
 			"MoveSpeed": "Fast",
@@ -103,7 +106,7 @@
 			"Image": "barley.png"
 		},
 		{
-			"Name": "Jessie",
+			"Name": "+Jessie",
 			"Rarity": "Super Rare",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -118,7 +121,7 @@
 			"Image": "jessie.png"
 		},
 		{
-			"Name": "Nita",
+			"Name": "+Nita",
 			"Rarity": "Rare",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -134,14 +137,17 @@
 		},
 		{
 			"Name": "Dynamike",
-			"Rarity": "Unknown",
-			"Role": "Unknown",
+			"Rarity": "Super rare",
+			"Role": "Artilery",
 			"MoveSpeed": "Fast",
-			"Health": 0,
-			"AttackName": "",
+			"Health": 5600,
+			"AttackName": "Short fuse",
 			"AttackRange": "Long",
-			"AttackDamage": 0,
-			"AttackReloadSpeed": "Fast",
+			"AttackDamage": 3200,
+			"AttackReloadSpeed": "Normal",
+			"SuperName": "Big barrel o'boom",
+			"SuperDamage": 4400,
+			"SuperRange": "Long",
 			"Image": "dynamike.png"
 		},
 		{
@@ -149,18 +155,18 @@
 			"Rarity": "Rare",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
-			"Health": 10800,
-			"AttackName": "",
-			"AttackRange": "Long",
-			"AttackDamage": 1080,
-			"AttackReloadSpeed": "Fast",
-			"SuperName": "",
-			"SuperDamage": 1200,
+			"Health": 12600,
+			"AttackName": "Fists of fury",
+			"AttackRange": "Short",
+			"AttackDamage": 3040,
+			"AttackReloadSpeed": "Very fast",
+			"SuperName": "Flying elbow drop",
+			"SuperDamage": 1920,
 			"SuperRange": "Long",
 			"Image": "elprimo.png"
 		},
 		{
-			"Name": "Mortis",
+			"Name": "+Mortis",
 			"Rarity": "Mythic",
 			"Role": "Assassin",
 			"MoveSpeed": "Fast",
@@ -175,7 +181,7 @@
 			"Image": "mortis.png"
 		},
 		{
-			"Name": "Crow",
+			"Name": "+Crow",
 			"Rarity": "Legendary",
 			"Role": "Assassin",
 			"MoveSpeed": "Fast",
@@ -190,7 +196,7 @@
 			"Image": "crow.png"
 		},
 		{
-			"Name": "Poco",
+			"Name": "+Poco",
 			"Rarity": "Rare",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -205,7 +211,7 @@
 			"Image": "poco.png"
 		},
 		{
-			"Name": "Bo",
+			"Name": "+Bo",
 			"Rarity": "Epic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -220,7 +226,7 @@
 			"Image": "bo.png"
 		},
 		{
-			"Name": "Piper",
+			"Name": "+Piper",
 			"Rarity": "Epic",
 			"Role": "Sniper",
 			"MoveSpeed": "Fast",
@@ -235,7 +241,7 @@
 			"Image": "piper.png"
 		},
 		{
-			"Name": "Pam",
+			"Name": "+Pam",
 			"Rarity": "Epic",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -250,7 +256,7 @@
 			"Image": "pam.png"
 		},
 		{
-			"Name": "Tara",
+			"Name": "+Tara",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -262,7 +268,7 @@
 			"Image": "tara.png"
 		},
 		{
-			"Name": "Darryl",
+			"Name": "+Darryl",
 			"Rarity": "Super Rare",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -277,7 +283,7 @@
 			"Image": "darryl.png"
 		},
 		{
-			"Name": "Penny",
+			"Name": "+Penny",
 			"Rarity": "Super Rare",
 			"Role": "Artillery",
 			"MoveSpeed": "Fast",
@@ -296,18 +302,18 @@
 			"Rarity": "Epic",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
-			"Health": 10800,
-			"AttackName": "",
-			"AttackRange": "Long",
-			"AttackDamage": 1680,
-			"AttackReloadSpeed": "Fast",
-			"SuperName": "",
-			"SuperDamage": 1680,
+			"Health": 13400,
+			"AttackName": "Hammer hit",
+			"AttackRange": "Normal",
+			"AttackDamage": 2320,
+			"AttackReloadSpeed": "Very fast",
+			"SuperName": "Stunning blow",
+			"SuperDamage": 2480,
 			"SuperRange": "Long",
 			"Image": "frank.png"
 		},
 		{
-			"Name": "Gene",
+			"Name": "+Gene",
 			"Rarity": "Mythic",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -322,7 +328,7 @@
 			"Image": "gene.png"
 		},
 		{
-			"Name": "Tick",
+			"Name": "+Tick",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -334,7 +340,7 @@
 			"Image": "tick.png"
 		},
 		{
-			"Name": "Leon",
+			"Name": "+Leon",
 			"Rarity": "Legendary",
 			"Role": "Assassin",
 			"MoveSpeed": "Fast",
@@ -349,7 +355,7 @@
 			"Image": "leon.png"
 		},
 		{
-			"Name": "Rosa",
+			"Name": "+Rosa",
 			"Rarity": "Rare",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -364,7 +370,7 @@
 			"Image": "rosa.png"
 		},
 		{
-			"Name": "Carl",
+			"Name": "+Carl",
 			"Rarity": "Super Rare",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -379,7 +385,7 @@
 			"Image": "carl.png"
 		},
 		{
-			"Name": "Bibi",
+			"Name": "+Bibi",
 			"Rarity": "Epic",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -394,7 +400,7 @@
 			"Image": "bibi.png"
 		},
 		{
-			"Name": "8-Bit",
+			"Name": "+8-Bit",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -406,7 +412,7 @@
 			"Image": "8-bit.png"
 		},
 		{
-			"Name": "Sandy",
+			"Name": "+Sandy",
 			"Rarity": "Legendary",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -421,7 +427,7 @@
 			"Image": "sandy.png"
 		},
 		{
-			"Name": "Bea",
+			"Name": "+Bea",
 			"Rarity": "Epic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -436,7 +442,7 @@
 			"Image": "bea.png"
 		},
 		{
-			"Name": "Emz",
+			"Name": "+Emz",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -448,7 +454,7 @@
 			"Image": "emz.png"
 		},
 		{
-			"Name": "Mr. P",
+			"Name": "+Mr. P",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -460,7 +466,7 @@
 			"Image": "mr._p.png"
 		},
 		{
-			"Name": "Max",
+			"Name": "+Max",
 			"Rarity": "Mythic",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -475,7 +481,7 @@
 			"Image": "max.png"
 		},
 		{
-			"Name": "Jacky",
+			"Name": "+Jacky",
 			"Rarity": "Super Rare",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -490,7 +496,7 @@
 			"Image": "jacky.png"
 		},
 		{
-			"Name": "Gale",
+			"Name": "+Gale",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -502,7 +508,7 @@
 			"Image": "gale.png"
 		},
 		{
-			"Name": "Nani",
+			"Name": "+Nani",
 			"Rarity": "Epic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -517,7 +523,7 @@
 			"Image": "nani.png"
 		},
 		{
-			"Name": "Sprout",
+			"Name": "+Sprout",
 			"Rarity": "Mythic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -533,21 +539,21 @@
 		},
 		{
 			"Name": "Surge",
-			"Rarity": "Chromatic",
+			"Rarity": "Legendary",
 			"Role": "Damage Dealer",
-			"MoveSpeed": "Fast",
-			"Health": 6400,
-			"AttackName": "",
-			"AttackRange": "Long",
-			"AttackDamage": 900,
-			"AttackReloadSpeed": "Fast",
-			"SuperName": "",
-			"SuperDamage": 0,
-			"SuperRange": "Long",
+			"MoveSpeed": "Slow",
+			"Health": 6000,
+			"AttackName": "Juice of justice",
+			"AttackRange": "Normal",
+			"AttackDamage": 2360,
+			"AttackReloadSpeed": "Slow",
+			"SuperName": "Party tricks",
+			"SuperDamage": 2000,
+			"SuperRange": "Short",
 			"Image": "surge.png"
 		},
 		{
-			"Name": "Colette",
+			"Name": "+Colette",
 			"Rarity": "Chromatic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -562,7 +568,7 @@
 			"Image": "colette.png"
 		},
 		{
-			"Name": "Amber",
+			"Name": "+Amber",
 			"Rarity": "Legendary",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -577,7 +583,7 @@
 			"Image": "amber.png"
 		},
 		{
-			"Name": "Lou",
+			"Name": "+Lou",
 			"Rarity": "Chromatic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -592,7 +598,7 @@
 			"Image": "lou.png"
 		},
 		{
-			"Name": "Byron",
+			"Name": "+Byron",
 			"Rarity": "Mythic",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -607,7 +613,7 @@
 			"Image": "byron.png"
 		},
 		{
-			"Name": "Edgar",
+			"Name": "+Edgar",
 			"Rarity": "Epic",
 			"Role": "Assassin",
 			"MoveSpeed": "Fast",
@@ -622,7 +628,7 @@
 			"Image": "edgar.png"
 		},
 		{
-			"Name": "Ruffs",
+			"Name": "+Ruffs",
 			"Rarity": "Mythic",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -637,7 +643,7 @@
 			"Image": "ruffs.png"
 		},
 		{
-			"Name": "Stu",
+			"Name": "+Stu",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -649,7 +655,7 @@
 			"Image": "stu.png"
 		},
 		{
-			"Name": "Belle",
+			"Name": "+Belle",
 			"Rarity": "Chromatic",
 			"Role": "Sharpshooter",
 			"MoveSpeed": "Fast",
@@ -664,7 +670,7 @@
 			"Image": "belle.png"
 		},
 		{
-			"Name": "Squeak",
+			"Name": "+Squeak",
 			"Rarity": "Mythic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -679,7 +685,7 @@
 			"Image": "squeak.png"
 		},
 		{
-			"Name": "Grom",
+			"Name": "+Grom",
 			"Rarity": "Epic",
 			"Role": "Artillery",
 			"MoveSpeed": "Fast",
@@ -694,7 +700,7 @@
 			"Image": "grom.png"
 		},
 		{
-			"Name": "Buzz",
+			"Name": "+Buzz",
 			"Rarity": "Chromatic",
 			"Role": "Assassin",
 			"MoveSpeed": "Fast",
@@ -709,7 +715,7 @@
 			"Image": "buzz.png"
 		},
 		{
-			"Name": "Griff",
+			"Name": "+Griff",
 			"Rarity": "Epic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -724,7 +730,7 @@
 			"Image": "griff.png"
 		},
 		{
-			"Name": "Ash",
+			"Name": "+Ash",
 			"Rarity": "Chromatic",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -739,7 +745,7 @@
 			"Image": "ash.png"
 		},
 		{
-			"Name": "Meg",
+			"Name": "+Meg",
 			"Rarity": "Legendary",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -754,7 +760,7 @@
 			"Image": "meg.png"
 		},
 		{
-			"Name": "Lola",
+			"Name": "+Lola",
 			"Rarity": "Chromatic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -769,7 +775,7 @@
 			"Image": "lola.png"
 		},
 		{
-			"Name": "Fang",
+			"Name": "+Fang",
 			"Rarity": "Chromatic",
 			"Role": "Assassin",
 			"MoveSpeed": "Fast",
@@ -784,7 +790,7 @@
 			"Image": "fang.png"
 		},
 		{
-			"Name": "Eve",
+			"Name": "+Eve",
 			"Rarity": "Chromatic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -799,7 +805,7 @@
 			"Image": "eve.png"
 		},
 		{
-			"Name": "Janet",
+			"Name": "+Janet",
 			"Rarity": "Chromatic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -814,7 +820,7 @@
 			"Image": "janet.png"
 		},
 		{
-			"Name": "Bonnie",
+			"Name": "+Bonnie",
 			"Rarity": "Chromatic",
 			"Role": "Artillery",
 			"MoveSpeed": "Fast",
@@ -829,7 +835,7 @@
 			"Image": "bonnie.png"
 		},
 		{
-			"Name": "Otis",
+			"Name": "+Otis",
 			"Rarity": "Chromatic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -844,7 +850,7 @@
 			"Image": "otis.png"
 		},
 		{
-			"Name": "Sam",
+			"Name": "+Sam",
 			"Rarity": "Chromatic",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -859,7 +865,7 @@
 			"Image": "sam.png"
 		},
 		{
-			"Name": "Gus",
+			"Name": "+Gus",
 			"Rarity": "Super Rare",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -874,7 +880,7 @@
 			"Image": "gus.png"
 		},
 		{
-			"Name": "Buster",
+			"Name": "+Buster",
 			"Rarity": "Chromatic",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -889,7 +895,7 @@
 			"Image": "buster.png"
 		},
 		{
-			"Name": "Chester",
+			"Name": "+Chester",
 			"Rarity": "Legendary",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -904,7 +910,7 @@
 			"Image": "chester.png"
 		},
 		{
-			"Name": "Gray",
+			"Name": "+Gray",
 			"Rarity": "Mythic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -919,7 +925,7 @@
 			"Image": "gray.png"
 		},
 		{
-			"Name": "Mandy",
+			"Name": "+Mandy",
 			"Rarity": "Chromatic",
 			"Role": "Artillery",
 			"MoveSpeed": "Fast",
@@ -934,7 +940,7 @@
 			"Image": "mandy.png"
 		},
 		{
-			"Name": "R-T",
+			"Name": "+R-T",
 			"Rarity": "Chromatic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -949,7 +955,7 @@
 			"Image": "rt.png"
 		},
 		{
-			"Name": "Willow",
+			"Name": "+Willow",
 			"Rarity": "Mythic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -964,7 +970,7 @@
 			"Image": "willow.png"
 		},
 		{
-			"Name": "Maisie",
+			"Name": "+Maisie",
 			"Rarity": "Chromatic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -979,7 +985,7 @@
 			"Image": "maisie.png"
 		},
 		{
-			"Name": "Hank",
+			"Name": "+Hank",
 			"Rarity": "Epic",
 			"Role": "Tank",
 			"MoveSpeed": "Fast",
@@ -994,7 +1000,7 @@
 			"Image": "hank.png"
 		},
 		{
-			"Name": "Cordelius",
+			"Name": "+Cordelius",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1006,7 +1012,7 @@
 			"Image": "cordelius.png"
 		},
 		{
-			"Name": "Doug",
+			"Name": "+Doug",
 			"Rarity": "Rare",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -1021,7 +1027,7 @@
 			"Image": "doug.png"
 		},
 		{
-			"Name": "Pearl",
+			"Name": "+Pearl",
 			"Rarity": "Chromatic",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -1036,7 +1042,7 @@
 			"Image": "pearl.png"
 		},
 		{
-			"Name": "Chuck",
+			"Name": "+Chuck",
 			"Rarity": "Mythic",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -1051,7 +1057,7 @@
 			"Image": "chuck.png"
 		},
 		{
-			"Name": "Charlie",
+			"Name": "+Charlie",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1063,7 +1069,7 @@
 			"Image": "charlie.png"
 		},
 		{
-			"Name": "Mico",
+			"Name": "+Mico",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1075,7 +1081,7 @@
 			"Image": "mico.png"
 		},
 		{
-			"Name": "Kit",
+			"Name": "+Kit",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1087,7 +1093,7 @@
 			"Image": "kit.png"
 		},
 		{
-			"Name": "Larry & Lawrie",
+			"Name": "+Larry & Lawrie",
 			"Rarity": "Epic",
 			"Role": "Artillery",
 			"MoveSpeed": "Fast",
@@ -1102,7 +1108,7 @@
 			"Image": "larry_lawrie.png"
 		},
 		{
-			"Name": "Melodie",
+			"Name": "+Melodie",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1114,22 +1120,22 @@
 			"Image": "melodie.png"
 		},
 		{
-			"Name": "Angelo",
-			"Rarity": "Legendary",
-			"Role": "Artillery",
-			"MoveSpeed": "Fast",
-			"Health": 5400,
-			"AttackName": "",
-			"AttackRange": "Long",
-			"AttackDamage": 1200,
-			"AttackReloadSpeed": "Fast",
-			"SuperName": "",
-			"SuperDamage": 0,
-			"SuperRange": "Long",
+			"Name": "+Angelo",
+			"Rarity": "Epic",
+			"Role": "Marksman",
+			"MoveSpeed": "Very fast",
+			"Health": 6000,
+			"AttackName": "Take aim",
+			"AttackRange": "Very long",
+			"AttackDamage": 4000,
+			"AttackReloadSpeed": "Very fast",
+			"SuperName": "Welcome to the swamp",
+			"SuperDamage": 1000,
+			"SuperRange": "",
 			"Image": "angelo.png"
 		},
 		{
-			"Name": "Draco",
+			"Name": "+Draco",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1141,7 +1147,7 @@
 			"Image": "draco.png"
 		},
 		{
-			"Name": "Lily",
+			"Name": "+Lily",
 			"Rarity": "Epic",
 			"Role": "Support",
 			"MoveSpeed": "Fast",
@@ -1156,7 +1162,7 @@
 			"Image": "lily.png"
 		},
 		{
-			"Name": "Berry",
+			"Name": "+Berry",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1168,7 +1174,7 @@
 			"Image": "berry.png"
 		},
 		{
-			"Name": "Clancy",
+			"Name": "+Clancy",
 			"Rarity": "Legendary",
 			"Role": "Controller",
 			"MoveSpeed": "Fast",
@@ -1183,7 +1189,7 @@
 			"Image": "clancy.png"
 		},
 		{
-			"Name": "Moe",
+			"Name": "+Moe",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1195,7 +1201,7 @@
 			"Image": "moe.png"
 		},
 		{
-			"Name": "Kenji",
+			"Name": "+Kenji",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1207,7 +1213,7 @@
 			"Image": "kenji.png"
 		},
 		{
-			"Name": "Shade",
+			"Name": "+Shade",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1219,7 +1225,7 @@
 			"Image": "shade.png"
 		},
 		{
-			"Name": "Juju",
+			"Name": "+Juju",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1231,7 +1237,7 @@
 			"Image": "juju.png"
 		},
 		{
-			"Name": "Meeple",
+			"Name": "+Meeple",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1243,7 +1249,7 @@
 			"Image": "meeple.png"
 		},
 		{
-			"Name": "Ollie",
+			"Name": "+Ollie",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1255,7 +1261,7 @@
 			"Image": "ollie.png"
 		},
 		{
-			"Name": "Lumi",
+			"Name": "+Lumi",
 			"Rarity": "Legendary",
 			"Role": "Damage Dealer",
 			"MoveSpeed": "Fast",
@@ -1270,7 +1276,7 @@
 			"Image": "lumi.png"
 		},
 		{
-			"Name": "Finx",
+			"Name": "+Finx",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1282,7 +1288,7 @@
 			"Image": "finx.png"
 		},
 		{
-			"Name": "Jae-Yong",
+			"Name": "+Jae-Yong",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
@@ -1294,7 +1300,7 @@
 			"Image": "jae-yong.png"
 		},
 		{
-			"Name": "Kaze",
+			"Name": "+Kaze",
 			"Rarity": "Unknown",
 			"Role": "Unknown",
 			"MoveSpeed": "Fast",
